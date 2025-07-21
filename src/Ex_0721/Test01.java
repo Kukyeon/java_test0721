@@ -1,4 +1,4 @@
-package test;
+package Ex_0721;
 
 public class Test01 {
 
