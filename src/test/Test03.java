@@ -9,15 +9,20 @@ public class Test03 {
 //		1부터 100까지의 수 중 홀수의 합을 출력하세요.
 		
 		int sum = 0;
-		for(int i = 1 ; i <= 100 ; i++ ) {
-			if ( i % 3 == 0)   {
+		for(int i = 0 ; i <= 100 ; i++ ) {
+			if ( i % 2 != 0)   { // 홀수찾는 조건
 				sum += i;
-				System.out.println("sum의 값 : " + sum);
 			}
-			 
 			
+//			if ( i % 2 ==0) {
+//				continue;	//for 문으로 돌려보내기
+//			}
+//			
 		}
+		     
 		
+		
+		System.out.println("sum의 값 : " + sum);
 		
 		
 	}
