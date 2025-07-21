@@ -13,7 +13,7 @@ public class Array_ex {
 		
 		for(int num : arr1) {
 			sum = sum+num;
-				}System.out.println(sum/5);
+				}System.out.println(sum/arr1.length);
 	
 	System.out.println("====================================");	
 	
